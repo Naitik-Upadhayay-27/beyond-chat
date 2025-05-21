@@ -10,10 +10,20 @@ const API_VERSION = 'v1'; // or 'v1beta' if needed
 const apiKey = process.env.GOOGLE_AI_API_KEY;
 if (!apiKey) {
   console.error('GOOGLE_AI_API_KEY is not set in environment variables');
+  // Log all available environment variables for debugging (excluding values for security)
+  console.log('Available environment variables:', Object.keys(process.env));
 }
 
 // Initialize the Google Generative AI with your API key
-const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
+let genAI: GoogleGenerativeAI | null = null;
+try {
+  if (apiKey) {
+    genAI = new GoogleGenerativeAI(apiKey);
+    console.log('Successfully initialized Gemini API');
+  }
+} catch (error) {
+  console.error('Error initializing Gemini API:', error);
+}
 
 // Helper function to convert message history to Gemini API format
 function prepareChatHistory(history: any[]) {
