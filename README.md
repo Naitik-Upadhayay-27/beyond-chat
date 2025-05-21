@@ -1,6 +1,6 @@
-# Intercom Admin Panel Clone with AI Chat
+# BeyondChat - AI-Powered Customer Communication Platform
 
-A Next.js replica of Intercom's AI-powered admin panel with modern UI/UX, full responsiveness, and AI chat capabilities powered by Google's Gemini API.
+A modern customer communication platform with AI chat capabilities, user management, and a comprehensive dashboard built with Next.js.
 
 ## 🧱 Tech Stack
 
@@ -28,8 +28,8 @@ A Next.js replica of Intercom's AI-powered admin panel with modern UI/UX, full r
 
 ## 📱 Screenshots
 
-![Dashboard](https://via.placeholder.com/800x450.png?text=Intercom+Dashboard)
-![Chat Interface](https://via.placeholder.com/800x450.png?text=Intercom+Chat+Interface)
+![Dashboard](https://via.placeholder.com/800x450.png?text=BeyondChat+Dashboard)
+![Chat Interface](https://via.placeholder.com/800x450.png?text=BeyondChat+Chat+Interface)
 
 ## 🧪 How to Run Locally
 
