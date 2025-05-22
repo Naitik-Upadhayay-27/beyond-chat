@@ -4,7 +4,7 @@ A modern customer communication platform with AI chat capabilities, user managem
 
 ## 🌐 Live Demo
 
-**Deployment Link**: [BeyondChat Live Demo](https://beyond-chat-app.vercel.app/)
+**Deployment Link**: [BeyondChat Live Demo](https://beyond-chat-proto.vercel.app/dashboard)
 
 **Github Link**: [BeyondChat GitHub](https://github.com/Naitik-Upadhayay-27/beyond-chat)
 
