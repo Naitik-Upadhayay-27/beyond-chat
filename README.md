@@ -4,11 +4,13 @@ A modern customer communication platform with AI chat capabilities, user managem
 
 ## 🌐 Live Demo
 
-**Deployment Link**: [BeyondChat Live Demo](https://beyond-chat.netlify.app)
+**Deployment Link**: [BeyondChat Live Demo](https://beyond-chat-app.vercel.app/)
+
+**Github Link**: [BeyondChat GitHub](https://github.com/Naitik-Upadhayay-27/beyond-chat)
 
 ## 🧱 Tech Stack
 
-- **Framework**: Next.js 14 (App Router) with React 18
+- **Framework**: Next.js 15 (App Router) with React 18
 - **AI Integration**: Google Gemini API for intelligent chat responses
 - **Styling**: 
   - Tailwind CSS for utility-first styling
@@ -93,55 +95,6 @@ A modern customer communication platform with AI chat capabilities, user managem
 - **Integration Management**: Connect with third-party services
 - **Role-based Access Control**: Granular permission settings for team members
 
-## 📱 Screenshots
-
-![Dashboard](https://via.placeholder.com/800x450.png?text=BeyondChat+Dashboard)
-![Chat Interface](https://via.placeholder.com/800x450.png?text=BeyondChat+Chat+Interface)
-![Mobile View](https://via.placeholder.com/375x812.png?text=BeyondChat+Mobile)
-![Dark Mode](https://via.placeholder.com/800x450.png?text=BeyondChat+Dark+Mode)
-
-## 🧪 How to Run Locally
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/beyond-chat.git
-   cd beyond-chat
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
-
-3. Set up environment variables
-   - Create a `.env.local` file in the root directory
-   - Add your Google Gemini API key:
-     ```
-     GOOGLE_AI_API_KEY=your_api_key_here
-     NEXT_PUBLIC_API_URL=http://localhost:3000/api
-     ```
-
-4. Run the development server
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 🔑 Getting a Google Gemini API Key
-
-1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Sign in with your Google account
-3. Create a new API key
-4. Copy the key and add it to your `.env.local` file
 
 ## ✨ AI Chat Features in Detail
 
@@ -280,6 +233,7 @@ This project follows these development principles:
 - **Documentation**: Comprehensive inline documentation and Storybook
 - **Accessibility**: WCAG compliance and keyboard navigation
 - **Performance Budgets**: Lighthouse score monitoring
+
 
 ## 👥 Contributing
 
